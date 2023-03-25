@@ -3,13 +3,16 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     android:orientation="vertical">
     <EditText
         android:id="@+id/dietMemo"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_margin="20dp"
-        android:hint="운동메모를 입력해주세요"
+        android:hint="세차장을 입력해주세요"
+        android:textColorHint="#d3d3d3"
+        android:textColor="@color/black"
         android:background="@android:color/transparent"/>
 
     <LinearLayout
