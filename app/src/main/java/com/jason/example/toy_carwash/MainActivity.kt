@@ -41,9 +41,6 @@ class MainActivity : AppCompatActivity() {
 
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
-
-
-
         binding.addRecord.setOnClickListener {
 
             val mDialogView = LayoutInflater.from(this).inflate(R.layout.custom_dialog, null)
